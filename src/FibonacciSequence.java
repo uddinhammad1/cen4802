@@ -1,11 +1,5 @@
 public class FibonacciSequence {
-    /**
-     * Calculates the nth Fibonacci number using recursion.
-     *
-     * @param term the position of the term in the Fibonacci sequence (n)
-     * @return the nth Fibonacci number
-     */
-    /**Added Javadoc comments to calculateFibonacci method*/
+
     // Method to compute the nth Fibonacci number using recursion
     public static int calculateFibonacci(int term) {
         if (term == 0) {
@@ -19,9 +13,9 @@ public class FibonacciSequence {
 
     public static void main(String[] args) {
         int position = 10; // Define which term we want to find
-        int fibonacciValue = calculateFibonacci(position); // Compute the Fibonacci valuea
+        int fibonacciValue = calculateFibonacci(position); // Compute the Fibonacci value
 
-        // Display the result with a meaningful descriptionS
+        // Display the result with a meaningful description
         System.out.println("The " + position + "th term in the Fibonacci sequence is " + fibonacciValue + ".");
     }
 }
